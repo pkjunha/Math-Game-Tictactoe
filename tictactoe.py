@@ -472,7 +472,7 @@ frame3.pack(side=tk.TOP, fill=tk.X, padx=5, pady=2)
 
 edit_mode_var = tk.BooleanVar(value=False) # 수정 모드 변수 초기화
 edit_mode_check = tk.Checkbutton(frame3, text="수정 모드", variable=edit_mode_var, font=('Arial', 12))
-edit_mode_check.pack(side=tk.LEFT, padx=5)/
+edit_mode_check.pack(side=tk.LEFT, padx=5)
 
 # 버튼
 start_button = tk.Button(root, text="게임 시작", command=startGame)
